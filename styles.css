@@ -1,0 +1,88 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: purple
+}
+
+main{
+
+    display: block;
+    margin: 5% auto;
+    padding: 5%;
+    width: 60%;
+    height: 80%;
+    background-color: white;
+
+}
+
+h1{
+    display: flex;
+    justify-self: center;
+    color: grey;
+    
+}
+.icon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+
+
+div:hover{
+    background-color: rgba(39, 190, 19, 0.932);
+    color: white;
+}
+div:hover .icon{
+    stroke:rgb(79, 69, 228);
+    fill: rgb(118, 120, 238);
+}
+p{
+    padding-left: 5%;
+}
+
+#home{
+    display: flex;
+    align-content: center;
+    height: 15%;
+    padding: 3%;
+}
+#aboutme{
+    display: flex;
+    align-items: center;
+    height: 15%;
+    padding:3%;
+}
+#portafolio{
+    display: flex;
+    align-items: center;
+    height: 15%;
+    padding:3%;
+}
+#contactme{
+    display: flex;
+    align-items: center;
+    height: 15%;
+    padding:3%;
+}
+
+
+.nezuko{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.nezuko img{
+    width: 100%;
+    height: auto;
+    
+}
